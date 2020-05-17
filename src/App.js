@@ -5,7 +5,7 @@ import './App.css';
 import { Quiz } from './views/Quiz';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -28,7 +28,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Router>
+      <Router basename="/">
         <Link to="/quiz">Quiz</Link>
         <Switch>
           <Route path="/quiz">

@@ -28,7 +28,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Router basename="/">
+      <Router basename="learn-german">
         <Link to="/quiz">Quiz</Link>
         <Switch>
           <Route path="/quiz">

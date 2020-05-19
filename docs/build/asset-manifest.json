@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/learn-german/static/css/main.5f361e03.chunk.css",
+    "main.js": "/learn-german/static/js/main.6ad93722.chunk.js",
+    "main.js.map": "/learn-german/static/js/main.6ad93722.chunk.js.map",
+    "runtime-main.js": "/learn-german/static/js/runtime-main.5a65ab36.js",
+    "runtime-main.js.map": "/learn-german/static/js/runtime-main.5a65ab36.js.map",
+    "static/js/2.5b3e0752.chunk.js": "/learn-german/static/js/2.5b3e0752.chunk.js",
+    "static/js/2.5b3e0752.chunk.js.map": "/learn-german/static/js/2.5b3e0752.chunk.js.map",
+    "index.html": "/learn-german/index.html",
+    "precache-manifest.459c996c2e5584974db2c63b6728ee57.js": "/learn-german/precache-manifest.459c996c2e5584974db2c63b6728ee57.js",
+    "service-worker.js": "/learn-german/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/learn-german/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.5b3e0752.chunk.js.LICENSE.txt": "/learn-german/static/js/2.5b3e0752.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a65ab36.js",
+    "static/js/2.5b3e0752.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.6ad93722.chunk.js"
+  ]
+}

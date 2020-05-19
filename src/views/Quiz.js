@@ -17,22 +17,25 @@ export class Quiz extends React.Component {
 
     getRandomQuestion = () => {
         const index = Math.floor(Math.random() * vocabulary.length);
-        console.log({ index, w: vocabulary[index] });
         return vocabulary[index];
     }
 
     handleInput = (event) => {
         const v = event.target.value;
-        console.log({ received: v })
         this.setState({
             ...this.state,
             userInput: v
-        }, console.log(this.state))
+        });
     }
 
     handleInputKey = (event) => {
+        const { isCorrect } = this.state;
         if (event.key === 'Enter') {
-            this.validate();
+            if (isCorrect === undefined) {
+                this.validate();
+            } else {
+                this.nextQuestion(!isCorrect);
+            }
         }
     }
 
@@ -55,10 +58,11 @@ export class Quiz extends React.Component {
         }
     }
 
-    nextQuestion = () => {
+    nextQuestion = (repeat) => {
+        const { question } = this.state;
         this.setState({
             nthQuestion: this.state.nthQuestion + 1,
-            question: this.getRandomQuestion(),
+            question: repeat === true ? question : this.getRandomQuestion(),
             userInput: "",
             isCorrect: undefined
         });
@@ -66,7 +70,6 @@ export class Quiz extends React.Component {
 
     render() {
         const { nCorrect, userInput, nQuestions, nthQuestion, question, isCorrect } = this.state;
-        console.log({ question, userInput });
         return <div>
             Quiz: {nthQuestion}/{nQuestions} - {nCorrect} correct
             <br />
@@ -80,13 +83,13 @@ export class Quiz extends React.Component {
             </div>}
             {isCorrect === true && <div>
                 <h1>Correct!</h1>
-                <button onClick={this.nextQuestion}>Next</button>
+                <button onClick={() => this.nextQuestion(false)}>Next</button>
             </div>}
             {isCorrect === false && <div>
                 <h1>Incorrect!</h1>
                 <h2>{question.en} -> {question.de}</h2>
                 <br />
-                <button onClick={this.nextQuestion}>Next</button>
+                <button onClick={() => this.nextQuestion(true)}>Next</button>
             </div>}
         </div>;
     }

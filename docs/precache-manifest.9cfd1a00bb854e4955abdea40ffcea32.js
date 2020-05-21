@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2913213de6bd054025fb7b0ccb8ab4c7",
+    "revision": "4314d634a4bc1ad7fd46bbedaf06bc3e",
     "url": "/learn-german/index.html"
   },
   {
-    "revision": "ccd36bcb1fa9252526d2",
+    "revision": "905d52dab9bfe34ea384",
     "url": "/learn-german/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/learn-german/static/js/2.5b3e0752.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ccd36bcb1fa9252526d2",
-    "url": "/learn-german/static/js/main.9725ee66.chunk.js"
+    "revision": "905d52dab9bfe34ea384",
+    "url": "/learn-german/static/js/main.36fb1869.chunk.js"
   },
   {
     "revision": "249af8f319686fed5653",

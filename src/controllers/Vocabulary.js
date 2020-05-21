@@ -38,7 +38,6 @@ export const vocabulary = [
     { 'de_art': 'die', 'de': 'Geschwister', 'en': 'siblings', 'de_plu': '' },
     { 'de_art': 'die', 'de': 'Schwester', 'en': 'sister', 'de_plu': 'die Schwestern' },
     { 'de_art': 'der', 'de': 'Bruder', 'en': 'brother', 'de_plu': 'die Brüder' },
-
     //Verbs
     { 'de_art': '', 'de': 'antworten', 'en': 'to answer', 'de_plu': '' },
     { 'de_art': '', 'de': 'arbeiten', 'en': 'to work', 'de_plu': '' },
@@ -60,7 +59,7 @@ export const vocabulary = [
     { 'de_art': '', 'de': 'geben', 'en': 'to give', 'de_plu': '' },
     { 'de_art': '', 'de': 'gehen', 'en': 'to go', 'de_plu': '' },
     { 'de_art': '', 'de': 'helgfen', 'en': 'to help', 'de_plu': '' },
-    { 'de_art': '', 'de': 'trinken', 'en': 'to hear, listen', 'de_plu': '' },
+    { 'de_art': '', 'de': 'zuhören', 'en': 'to hear, listen', 'de_plu': '' },
     { 'de_art': '', 'de': 'kaufen', 'en': 'to buy', 'de_plu': '' },
     { 'de_art': '', 'de': 'kommen', 'en': 'to come', 'de_plu': '' },
     { 'de_art': '', 'de': 'kosten', 'en': 'to cost', 'de_plu': '' },
